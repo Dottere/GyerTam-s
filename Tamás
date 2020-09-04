@@ -1,3 +1,16 @@
-<html>
-asdasd
-</html>
+import tkinter
+from tkinter import *
+
+window = tk.Tk()
+
+label = tk.Label(title="Asdasd")
+label.pack()
+
+btn1 = tk.Button(title=this button does nothing, fg="#000000" bg="#FFFFFF")
+btn1.pack()
+
+entry1 = tk.Entry()
+entry1.pack()
+entry1.insert(1, "apple")
+
+main.loop()
